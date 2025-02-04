@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./game.css";
 
-// Ensure the CSS file exists in the same directory as this component.
-// If the error persists, verify the file path or check for case-sensitive file naming issues.
-
 const COLORS = ["red", "blue", "green", "yellow", "purple", "orange"];
 
 const Game = () => {
